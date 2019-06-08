@@ -1,5 +1,7 @@
 # Known Arduino Code
 
-Currently we are using the file in `barametric_nitrogenvalve`.
-This cycles liquid nitrogen every 75 min and fills for 1 min.
-When not filling the liquid nitrogen, a display outputs the pressure from the barotron.
+Currently we are using the file in `arduino_master`.
+This program displays a few things:
+- The current pressure in torr
+- The power from the power meter (units on meter)
+- Time till the next nitrogen fill
